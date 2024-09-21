@@ -29,9 +29,6 @@ A versatile Python script to generate a tree-like representation of any director
 - **Symbolic Link Handling:** Detect and display symbolic links, preventing infinite loops.
 - **Cross-Platform Compatibility:** Works seamlessly on Windows, macOS, and Linux.
 
-## Demo
-
-![Demo Screenshot](./assets/demo.png)
 
 *Example output of the Directory Tree Generator.*
 

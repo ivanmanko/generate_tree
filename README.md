@@ -1,8 +1,7 @@
 # Directory Tree Generator
 
-![License](https://img.shields.io/github/license/yourusername/directory-tree-generator)
+![License](https://img.shields.io/github/license/ivanmanko/generate_tree)
 ![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/yourusername/directory-tree-generator/ci.yml?branch=main)
 
 A versatile Python script to generate a tree-like representation of any directory structure, with support for exclusion patterns defined in both `.gitignore` and `.treeignore` files. Perfect for documenting project structures, visualizing directories, and sharing insights about your codebase.
 

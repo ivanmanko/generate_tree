@@ -128,36 +128,19 @@ optional arguments:
 Loaded exclusion patterns from '/home/ivan/ucar/ucar_package/.treeignore'.
 Loaded exclusion patterns from '/home/ivan/ucar/ucar_package/.gitignore'.
 Exclusion patterns loaded from '.treeignore' and '.gitignore'.
-ucar_package/
-├── run.py
-├── ucar/
-│   ├── __init__.py
-│   ├── application.py
-│   ├── core.py
-│   ├── database.py
-│   ├── models.py
-│   ├── services/
-│   │   ├── __init__.py
-│   │   ├── auth_service.py
-│   │   ├── jwt_auth_service.py
-│   │   ├── registration.py
-│   │   ├── authorization.py
-│   │   ├── employers.py
-│   │   └── protected_service.py
-│   └── transport/
-│       ├── __init__.py
-│       ├── http/
-│       │   └── __init__.py
-│       └── jwt_auth/
-│           ├── __init__.py
-│           ├── auth.py
-│           ├── jwt_auth_roles.py
-│           ├── schemas.py
-│           ├── utils.py
-│           └── config.py
-└── other_dir/
-    ├── file1.txt
-    └── file2.py
+project_root/
+├── src/
+│   ├── main.py
+│   ├── utils.py
+│   └── modules/
+│       ├── module1.py
+│       └── module2.py
+├── tests/
+│   ├── test_main.py
+│   └── test_utils.py
+├── .gitignore
+├── README.md
+└── requirements.txt
 ```
 
 *Note:* The `.git/` directory and any files or directories matching patterns in `.treeignore` and `.gitignore` are excluded from the output.
@@ -173,36 +156,19 @@ python get_tree.py -o tree_structure.txt
 **Content of `tree_structure.txt`:**
 
 ```
-ucar_package/
-├── run.py
-├── ucar/
-│   ├── __init__.py
-│   ├── application.py
-│   ├── core.py
-│   ├── database.py
-│   ├── models.py
-│   ├── services/
-│   │   ├── __init__.py
-│   │   ├── auth_service.py
-│   │   ├── jwt_auth_service.py
-│   │   ├── registration.py
-│   │   ├── authorization.py
-│   │   ├── employers.py
-│   │   └── protected_service.py
-│   └── transport/
-│       ├── __init__.py
-│       ├── http/
-│       │   └── __init__.py
-│       └── jwt_auth/
-│           ├── __init__.py
-│           ├── auth.py
-│           ├── jwt_auth_roles.py
-│           ├── schemas.py
-│           ├── utils.py
-│           └── config.py
-└── other_dir/
-    ├── file1.txt
-    └── file2.py
+project_root/
+├── src/
+│   ├── main.py
+│   ├── utils.py
+│   └── modules/
+│       ├── module1.py
+│       └── module2.py
+├── tests/
+│   ├── test_main.py
+│   └── test_utils.py
+├── .gitignore
+├── README.md
+└── requirements.txt
 ```
 
 ## Customization
